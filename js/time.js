@@ -11,7 +11,7 @@ function checkTime() {
         am = "PM";
     } else if(h = 0){
         h = 12;
-    }
+    } else h = time.getHours();
 
     if(m < 10){
         m = "0" + m
