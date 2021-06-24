@@ -9,6 +9,8 @@ function checkTime() {
         am = "PM";
     } else if(h >= 12){
         am = "PM";
+    } else if(h = 0){
+        h = 12;
     }
 
     if(m < 10){
