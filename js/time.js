@@ -9,7 +9,7 @@ function checkTime() {
         am = "PM";
     } else if(h >= 12){
         am = "PM";
-    } else if(h = 0){
+    } else if(h === 0){
         h = 12;
     } else h = time.getHours();
 
