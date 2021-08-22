@@ -107,6 +107,7 @@ body {
 
 .search-bar button {
     position: relative;
+    cursor: pointer;
     left: 95%;
     top: 10%;
     background: none;
